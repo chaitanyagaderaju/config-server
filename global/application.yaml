@@ -5,7 +5,6 @@ management:
     export:
       zipkin:
         endpoint: http://${ZIPKIN_HOST:localhost}:${ZIPKIN_PORT:9411}/api/v2/spans
-
   info:
     env:
       enabled: true
