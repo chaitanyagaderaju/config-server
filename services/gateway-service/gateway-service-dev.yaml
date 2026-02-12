@@ -71,3 +71,7 @@ management:
 logging:
   pattern:
     level: "%5p [traceId=%X{traceId} spanId=%X{spanId}]"
+
+    app:
+      message:
+        welcome: "Let's manage our gateway efficiently!"

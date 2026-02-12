@@ -2,8 +2,7 @@ spring:
   application:
     name: asset-service
 
-
-  profiles:
-    active: dev
-
-
+info:
+  app:
+    name: asset-service
+    version: 1.2.3
